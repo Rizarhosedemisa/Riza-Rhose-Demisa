@@ -1,0 +1,74 @@
+<?php
+// ACTIVITY 1: Basic Output
+echo "<h3>Activity 1: Basic Output</h3>";
+echo "Name: Juan Dela Cruz<br>";
+print "Course: BSIT<br><br>";
+
+
+// ACTIVITY 2: Multiple Outputs
+echo "<h3>Activity 2: Multiple Outputs</h3>";
+echo "Welcome<br>";
+echo "This is PHP<br>";
+echo "Enjoy coding!<br><br>";
+
+
+// ACTIVITY 3: Declaring Variables
+echo "<h3>Activity 3: Declaring Variables</h3>";
+$name = "Maria";
+$age = 20;
+
+echo "Name: " . $name . "<br>";
+echo "Age: " . $age . "<br><br>";
+
+
+// ACTIVITY 4: Variable Rules (Fixed Code)
+echo "<h3>Activity 4: Variable Rules</h3>";
+$name = "Ana";
+$age = 18;
+
+echo "Age: " . $age . "<br><br>";
+
+
+// ACTIVITY 5: Arithmetic Operators
+echo "<h3>Activity 5: Arithmetic Operators</h3>";
+$a = 10;
+$b = 3;
+
+echo "Addition: " . ($a + $b) . "<br>";
+echo "Subtraction: " . ($a - $b) . "<br>";
+echo "Multiplication: " . ($a * $b) . "<br>";
+echo "Division: " . ($a / $b) . "<br><br>";
+
+
+// ACTIVITY 6: Assignment Operators
+echo "<h3>Activity 6: Assignment Operators</h3>";
+$x = 5;
+$x += 3;
+
+echo "Result: " . $x . "<br><br>";
+
+
+// ACTIVITY 7: Comparison Operators
+echo "<h3>Activity 7: Comparison Operators</h3>";
+$a = 10;
+$b = 5;
+
+echo "a > b: ";
+var_dump($a > $b);
+echo "<br>";
+
+echo "a == b: ";
+var_dump($a == $b);
+echo "<br><br>";
+
+
+// MINI PROJECT: Simple Calculator
+echo "<h3>Mini Project: Simple Calculator</h3>";
+$num1 = 8;
+$num2 = 4;
+
+echo "Sum: " . ($num1 + $num2) . "<br>";
+echo "Difference: " . ($num1 - $num2) . "<br>";
+echo "Product: " . ($num1 * $num2) . "<br>";
+echo "Quotient: " . ($num1 / $num2) . "<br>";
+?>
